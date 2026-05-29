@@ -3,193 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Portfolio | Sirichet</title>
+    <title>Portfolio | Sirichet Phetsupawanit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Font awesome import-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Sirichet Phetsupawanit</a>
-
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-
-        <nav class="navbar" id="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#services">Service</a>
+        <a href="#home" class="logo">Sirichet Phetsupawanit<span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
             <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-img">
-            <img src="assets/image/boc.jpg" alt="">
-        </div>
-        <div class="home-content">
-            <h1>Hi,It's <span>Sirichet Phetsupawanit</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae laboriosam similique quasi debitis quas commodi aut, quis, 
-                nemo omnis doloribus soluta maxime natus officia nihil quo suscipit fugiat tempore quaerat officiis ipsum. 
-                Iure minima nisi ipsam, nam ut corporis.</p>
-
-                <div class="social-icon">
-                    <a href="https://www.linkedin.com/in/sirichet-phetsupawanit-3b0b9a309/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Sirichet-2300"><i class="fa-brands fa-github"></i></a>
-                    <!-- <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+    <main>
+        <section class="hero" id="home">
+            <div>
+                <p class="eyebrow">Portfolio</p>
+                <h1>Hi, I'm <span>Sirichet Phetsupawanit</span></h1>
+                <p class="role">Fullstack Developer</p>
+                <p class="hero-copy">
+                    I build clean, responsive web applications with Java, PHP, Node.js,
+                    MongoDB, and Prisma. I enjoy turning practical problems into simple,
+                    usable digital products.
+                </p>
+                <div class="actions">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
                 </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/sirichet-phetsupawanit-3b0b9a309/" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Sirichet-2300" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="portrait-wrap">
+                <img src="assets/image/profile.jpg" alt="Sirichet Phetsupawanit">
+            </div>
+        </section>
+
+        <section class="section-alt" id="services">
+            <h2 class="heading">What I <span>Do</span></h2>
+            <p class="section-intro">Focused services for building practical, maintainable web applications.</p>
+            <div class="grid">
+                <article class="card">
+                    <i class="fa-solid fa-layer-group"></i>
+                    <h3>Fullstack Development</h3>
+                    <p>Build end-to-end web applications from frontend interfaces to backend APIs.</p>
+                </article>
+                <article class="card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Backend & Database</h3>
+                    <p>Design practical APIs and database structures using Node.js, PHP, MongoDB, and Prisma.</p>
+                </article>
+                <article class="card">
+                    <i class="fa-solid fa-display"></i>
+                    <h3>Responsive Websites</h3>
+                    <p>Create clean, mobile-friendly websites that work smoothly across screen sizes.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="heading">Technical <span>Skills</span></h2>
+            <p class="section-intro">Technologies I use to build web applications and backend systems.</p>
+            <div class="skills-grid">
+                <div class="skill"><img src="assets/image/java.png" alt="Java">Java</div>
+                <div class="skill"><img src="assets/image/php.png" alt="PHP">PHP</div>
+                <div class="skill"><img src="assets/image/nodejs.png" alt="Node.js">Node.js</div>
+                <div class="skill"><img src="assets/image/js.png" alt="JavaScript">JavaScript</div>
+                <div class="skill"><img src="assets/image/nextjs.jpg" alt="Next.js">Next.js</div>
+                <div class="skill"><img src="assets/image/react.png" alt="React">React</div>
+                <div class="skill"><img src="assets/image/mongodb.png" alt="MongoDB">MongoDB</div>
+                <div class="skill"><img src="assets/image/prisma.png" alt="Prisma">Prisma</div>
                 
-                <a href="#" class="btn">Hire me</a>
-        </div>
-    </section>
-    
-    <section class="services" id="services">
-        <h2 class="heading">Service</h2>
+            </div>
+        </section>
 
-        <div class="services-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Fullstack Developer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam asperiores iusto mollitia, 
-                    corporis magni debitis ab quis beatae recusandae eaque exercitationem, 
-                    tempora facere itaque tenetur voluptatibus libero numquam saepe!</p>
-                </div>
+        <section class="section-alt" id="projects">
+            <h2 class="heading">Featured <span>Projects</span></h2>
+            <p class="section-intro">Selected work from my resume, covering full-stack development, enterprise web systems, and machine learning practice.</p>
+            <div class="grid">
+                <article class="card">
+                    <h3>Secondhand Mobile Phone Sales System</h3>
+                    <p>
+                        Full-stack sales management system with back-office modules for users,
+                        inventory purchasing, product tracking, sales, repair records, company
+                        settings, and dashboard analytics.
+                    </p>
+                    <div class="project-tags">
+                        <span>Next.js</span><span>React</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>Prisma</span><span>JWT</span>
+                    </div>
+                    <a class="project-link" href="https://github.com/Sirichet-2300/Secondhand-mobile-phone-sales-system">
+                        <i class="fa-brands fa-github"></i>   
+                        View Repository
+                    </a>
+                </article>
+                <article class="card">
+                    <h3>User Management System</h3>
+                    <p>
+                        Full-stack user management system with advanced search, filtering,
+                        sorting, and work anniversary tracking, built with Java backend
+                        technologies and a responsive Bootstrap interface.
+                    </p>
+                    <div class="project-tags">
+                        <span>Java</span><span>Struts2</span><span>Spring</span><span>Hibernate</span><span>MySQL</span><span>jQuery</span><span>AJAX</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <h3>Handwriting Digit Recognition</h3>
+                    <p>
+                        Machine learning project for handwritten digit recognition, implemented
+                        and documented in a Jupyter Notebook using Python-based ML libraries.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span><span>scikit-learn</span><span>TensorFlow</span><span>Keras</span><span>Jupyter</span>
+                    </div>
+                    <a class="project-link" href="https://github.com/Sirichet-2300/ML-learning">
+                        <i class="fa-brands fa-github"></i>
+                        View Repository
+                    </a>
+                </article>
             </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Web Developer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quibusdam asperiores iusto mollitia, 
-                    corporis magni debitis ab quis beatae recusandae eaque exercitationem, 
-                    tempora facere itaque tenetur voluptatibus libero numquam saepe!</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="skills" id="skills">
-        <h2 class="heading">Skills</h2>
-        <div class="container">
-            <div class="row" id="skillsContainer">
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/java.png" />
-                        <span>Java</span>
-                    </div>
+        <section id="experience">
+            <h2 class="heading">Education & <span>Experience</span></h2>
+            <p class="section-intro">A clearer resume-style section for background and experience.</p>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Internship</h3>
+                    <p>Cube SoftTech Co., Ltd. - 4 months</p>
                 </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/php.png" />
-                        <span>PHP</span>
-                    </div>
+                <div class="timeline-item">
+                    <h3>University</h3>
+                    <p>Thai-Nichi Institute of Technology</p>
                 </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/nodejs.png" />
-                        <span>NodeJS</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/mongodb.png" />
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="assets/image/prisma.png" />
-                        <span>Prisma</span>
-                    </div>
+                <div class="timeline-item">
+                    <h3>High School</h3>
+                    <p>Banhanjamsai 3</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="education" id="education">
-        <h2 class="heading">My <span>Education & Experience</span></h2>
-        <div class="timeline">
-            <div class="container right">
-                <div class="content">
-                    <div class="tag">
-                        <h2>Internship</h2>
-                    </div>
-                    <div class="decs">
-                        <p>Cube SoftTech Co.,Ltd. 4 months </p>
-                    </div>
-                </div>
+        <section class="section-alt" id="contact">
+            <div class="contact-box">
+                <h2 class="heading">Let's <span>Work Together</span></h2>
+                <p>
+                    Open to junior developer opportunities, freelance work and collaboration on practical web projects.
+                </p>
+                <a href="mailto:sirichet.ph@gmail.com" class="btn">Send Email</a>
             </div>
-            <div class="container left">
-                <div class="content">
-                    <div class="tag">
-                        <h2>University</h2>
-                    </div>
-                    <div class="decs">
-                        <p>Thai-Nichi Institute of Technology</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container right">
-                <div class="content">
-                    <div class="tag">
-                        <h2>HighSchool</h2>
-                    </div>
-                    <div class="decs">
-                        <p>Banhanjamsai 3</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container left">
-                <div class="content">
-                    <div class="tag">
-                        <h2>School</h2>
-                    </div>
-                    <div class="decs">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, dignissimos quaerat 
-                            olores nostrum velit voluptatem consequuntur eius qui fugit, nemo porro? Deleniti, 
-                            aliquam. Ipsum doloribus sapiente placeat, odit corporis nihil.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="">
-            <div class="input-box">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="Number" placeholder="Phone Number" required>
-                <input type="text" placeholder="Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section>
+        </section>
+    </main>
 
     <footer class="footer">
-        <div class="social">
-            <a href="https://www.linkedin.com/in/sirichet-phetsupawanit-3b0b9a309/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/Sirichet-2300"><i class="fa-brands fa-github"></i></a>
-            <!-- <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
-        </div>
-        <ul class="list">
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Privacy Policies</a></li>
-        </ul>
-        <p class="copyright">
-            © Sirichet Phetsupawanit | All Right Reserved
-        </p>
+        <p>&copy; Sirichet Phetsupawanit | All Rights Reserved</p>
     </footer>
-    <!---wow animation-->
-
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
